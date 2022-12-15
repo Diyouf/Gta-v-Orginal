@@ -1,0 +1,635 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
+.navBar{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+   
+}
+.logo-section{
+    display: flex;
+    padding-left: 10px;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 38px;
+    height: 38px;
+    
+}
+.line{
+    font-size: 30px;
+    color: rgb(145, 141, 141);
+    font-weight: 100;
+    margin-top: 15px;
+}
+.logo2{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 180px;
+    height: 27px;
+}
+.list ul{
+    display: flex;
+    color: rgb(208, 206, 206);
+    margin-left: 210px;
+}
+.list li{
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Chalet', sans-serif;
+}
+.Support{
+    width: 15px;
+    height: 15px;
+}
+.right-section{
+    display: flex;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+.btn{
+    padding-top: 4px;
+    font-size: 16px;
+    border-radius: 7px;
+    color: white;
+    width: 130px;
+    height: 45px;
+    background-color: black;
+    border: 1px solid white;
+    font-family: 'Anton';
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+.logo3{
+    margin-top: 5px;
+    margin-left: 47px;
+    width: 42px;
+    height: 42px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: .6s ease;
+}
+.image1{
+    width: 100%;
+    height: 670px;
+    background-image: url("assets/asset\ 8.jpeg");
+    background-size: cover;
+}
+.Hover1{
+    padding-top: 20px;
+    background-image: linear-gradient(to right,black,transparent);
+    width: 700px;
+    height: 673px;
+    padding-left: 80px;
+}
+.svg1{
+    display: flex;
+}
+.svg1 img{
+    margin-top: 140px;
+    margin-left: 30px;
+    width: 140px;
+    height: 140px;
+}
+.right{
+    margin-left: 1100px;
+}
+.right audio{
+    opacity: 10%;
+}
+.Content1{
+    padding-left: 30px;
+    padding-top: 30px;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Anton';
+}
+.text1{
+    font-size: 18px;
+    padding-top: 20px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-Section{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.btn2{
+    padding-top: 4px;
+    font-size: 17px;
+    border-radius: 5px;
+    color: white;
+    width: 250px;
+    height: 65px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-family: 'Anton';
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+.btn3{
+    margin-left: 20px;
+    padding-top: 4px;
+    font-size: 17px;
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+    height: 65px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-family: 'Anton';
+    cursor: pointer;
+    
+}
+.btn2:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: .6s ease;
+}
+.btn3:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: .6s ease;
+}
+.image2{
+    width: 100%;
+    height: 800px;
+    background: url("assets/asset\ 10.jpeg");
+    background-size: cover;
+    display: flex;
+    
+}
+.left-part{
+    padding-left: 90px;
+    padding-top: 150px;
+}
+.image2 img{
+    width: 650px;
+    height: 600px;
+}
+.right-part{
+    padding-top: 140px;
+    padding-left: 40px;
+    width: 43%;
+    height: 600px;
+}
+.right-part img{
+    width: 140px;
+    height: 140px;
+}
+.head1{
+    font-size: 40px;
+    font-family: 'Anton';
+    color: white;
+    margin-top: 30px;
+}
+.para1{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Chalet', sans-serif;
+    color: white;
+    
+}
+.para2{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Chalet', sans-serif;
+    color: white;
+}
+.main-backgroung{
+    width: 100%;
+    height: 500px;
+    background-color: #111111;
+    display: flex;
+    padding-left: 30px;
+}
+.left-content1{
+    width: 45%;
+    height: 400px;
+    margin-top: 100px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.head2{
+    font-size: 40px;
+    font-family: 'Anton';
+    color: white;
+    margin-top: 30px;
+}
+.para3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Chalet', sans-serif;
+    color: rgb(229, 225, 225);
+}
+.right-content1{
+    padding-left: 120px;
+    padding-top: 70px;
+}
+.right-content1 img{
+    width: 640px;
+    height: 350px;
+    border-radius: 10px;
+}
+.main-backgroung2{
+    width: 100%;
+    height: 500px;
+    background-color: #111111;
+    display: flex;
+    padding-left: 30px;
+}
+.left-content2{
+    padding-left: 70px;
+    padding-top: 70px;
+}
+.left-content2 img{
+    width: 640px;
+    height: 340px;
+    border-radius: 10px;
+}
+.right-content2{
+    width: 45%;
+    height: 400px;
+    margin-top: 100px;
+    padding-left: 120px;
+    padding-top: 70px;
+}
+.main-backgroung3{
+    width: 100%;
+    height: 500px;
+    background-color: #111111;
+    display: flex;
+    padding-left: 30px;
+}
+.main-backgroung4{
+    width: 100%;
+    height: 500px;
+    background-color: #111111;
+    display: flex;
+    padding-left: 30px;
+}
+.image3{
+    width: 100%;
+    height: 800px;
+    background: url("assets/asset\ 16.jpeg");
+    background-size: cover;
+    display: flex;
+}
+.left-part2{
+    padding-top: 140px;
+    padding-left: 150px;
+    width: 50%;
+    height: 600px;
+}
+.left-part2 img{
+    width: 140px;
+    height: 140px;
+}
+.right-part2{
+    padding-left: 40px;
+    padding-top: 100px;
+}
+.right-part2 img{
+    width: 650px;
+    height: 600px;
+}
+.right-content5{
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.right-content5 img{
+    width: 650px;
+    height: 370px;
+    border-radius: 10px;
+}
+.left-content5{
+    padding-top: 30px;
+    padding-left: 70px;
+    width: 50%;
+}
+.left-content5 h1{
+    font-size: 37px;
+    font-family: 'Anton';
+    color: white;
+    margin-top: 30px;
+}
+.right-content6{
+    padding-left: 50px ;
+    padding-top: 40px;
+}
+.right-content6 img{
+    width: 640px;
+    height: 350px;
+    border-radius: 10px;
+}
+.main-container{
+    width: 660px;
+    height: 1000px;
+}
+.buynow-section{
+    width: 100%;
+    height: 900px;
+    background-color: #111111;
+    padding-left: 60px;
+}
+.title-buynow{
+    font-size: 35px;
+    font-family: 'Anton';
+    color: white;
+    margin-left: 35px;
+}
+.containers{
+    margin: auto;
+    width: 1400px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container1{
+    width: 660px;
+    height: 400px;
+    background: url(assets/asset\ 22.jpeg);
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    
+}
+.hover-div1{
+    width: 660px;
+    height: 300px;
+    background-image: linear-gradient(to bottom,transparent,black);
+    
+}
+.hover-div1 img{
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 330px;
+    height: 320px;
+}
+.container2{
+    width: 660px;
+    height: 400px;
+    background: url(assets/asset\ 24.jpeg);
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    
+}
+.hover-div2{
+    width: 660px;
+    height: 300px;
+    background-image: linear-gradient(to bottom,transparent,black);
+}
+.hover-div2 img{
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 330px;
+    height: 320px;
+}
+.black{
+    width: 660px;
+    height: 500px;
+    background-color: black;
+    padding-top: 120px;
+    padding-left: 50px;
+    border-radius: 0 0 10px 10px ;
+    border-bottom: 1px solid #2d2d2d;
+    border-left: 1px solid #2d2d2d;
+    border-right: 1px solid #2d2d2d;
+}
+.black-title{
+    font-size: 40px;
+    font-family: 'Anton';
+    color: white;
+}
+.black p{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Chalet', sans-serif;
+}
+.platform-list ul{
+    display: flex;
+    margin-left: -10px;
+}
+.platform-list ul{
+    display: flex;
+    margin-left: -10px;
+}
+.platform-list li{
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.box-left{
+    margin-top: 30px;
+    width: 340px;
+    height: 50px;
+    background-color: #111111;
+    padding-left: 40px;
+    padding-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #2d2d2d;
+}
+.box-left p{
+    font-size: 15px;
+    font-family: 'Chalet', sans-serif;
+}
+.last-btn{
+    margin-top: 110px;
+    
+}
+.last-btn button{
+    width: 570px;
+    height: 70px;
+    font-size: 19px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-family: 'Anton';
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.last-btn button:hover{
+    background-color: white;
+    color: black;
+    transition: .6s ease;
+}
+.last-btn1{
+    margin-top: 30px;
+    
+}
+.last-btn1 button{
+    width: 570px;
+    height: 70px;
+    font-size: 19px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-family: 'Anton';
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.last-btn1 button:hover{
+    background-color: white;
+    color: black;
+    transition: .6s ease;
+}
+.footer-first{
+    background-color: #111111;
+    width: 100%;
+    height: 570px;
+}
+.black-box{
+    margin-left: 238px;
+    background-color: black;
+    width: 1070px;
+    height: 100px;
+    padding-left: 60px;
+    padding-top: 40px;
+    border-radius: 10px;
+    border: 1px solid #2d2d2d;
+}
+.black-box p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Chalet', sans-serif;
+    font-weight: bold;
+}
+.black-box img{
+    margin-top: 180px;
+    margin-left: 380px;
+    width: 200px;
+    height: 150px;
+}
+.footer2{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.footer-main{
+    display: flex;
+}
+.english{
+    display: flex;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+.english img{
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+.english h1{
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(213, 211, 211);
+    font-family: 'Chalet', sans-serif;
+    cursor: pointer;
+}
+.footer-main ul{
+    margin-left: 50px;
+    display: flex;
+}
+.footer-main li{
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 40px;
+    list-style-type: none;
+    font-family: 'Chalet', sans-serif;
+    cursor: pointer;
+
+}
+.footer-main li:hover{
+    color: orange;
+}
+.footer-main2{
+    display: flex;
+}
+.footer-main2 ul{
+    margin-left: 60px;
+    display: flex;
+}
+.footer-main2 li{
+    color: rgb(96, 94, 94);
+    font-size: 13px;
+    margin-top: 70px;
+    margin-left: 30px;
+    list-style-type: none;
+    font-family: 'Chalet', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.footer-main2 li:hover{
+    color: orange;
+}
+.RockStar{
+    margin-top: 100px;
+    margin-left: 90px;
+    display: flex;
+}
+.RockStar p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Chalet', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.RockStar2{
+    margin-left: 400px;
+    display: flex;
+}
+.RockStar2 p{
+    margin-left: 30px;
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-family: 'Chalet', sans-serif;
+    font-weight: bolder;
+}
+.last-cont{
+    margin-left: 430px;
+}
+.last-cont p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Chalet', sans-serif;
+    font-weight: bolder;
+}
+.svgimg{
+    margin-left: 390px;
+    margin-top: 68px;
+}
+.svgimg img{
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+
